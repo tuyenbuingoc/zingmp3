@@ -1,0 +1,133 @@
+* {
+    
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(242, 242, 242);
+}
+
+.top-header {
+    background-color: #1c1c1c;
+    width: 100%;
+    display: flex;
+    line-height: 1.7;
+    align-items: center;
+    flex-direction: row;
+    min-height: 3.125rem;
+    padding-left: 175px;
+    padding-right: 175px;
+}
+.left-header {
+    padding-right: 4rem;
+}
+.center-header {
+   margin-right: auto;
+}
+.right-header {
+    
+}
+
+.login {
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff;
+}
+.login:hover {
+    text-decoration: underline;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    
+}
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem 0.5rem;
+}
+.link:hover {
+    background-color: #000000;
+    color: #721799;
+}
+.form-search {
+    margin: 0;
+}
+.btn {
+    border: 1px solid #ffffff;
+    padding: 0.34375rem 0.5rem;
+    margin-left: -2rem;
+    vertical-align: middle;
+    background-color: #ffffff;
+    margin-right: 1rem;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+.input-search {
+    border: 1px solid #ffffff;
+    padding: 0 1rem;
+    vertical-align: middle;
+    min-width: 25rem;
+}
+.bottom-header {
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2.5rem;
+    padding-right: 175px;
+    padding-left: 175px;
+}
+.link-btm {
+    text-decoration: none;
+    color: #333333;
+    padding: 0.719rem 1rem;
+    
+}
+.border-right {
+    border-right: 1px solid #999999;
+}
+.home {
+    color: #333333;
+    padding: 0.5rem 0.5rem;
+}
+.link-btm:hover {
+    background-color: #ffffff;
+    color: #721799;
+    
+}
+.home:hover {
+    cursor: pointer;
+}
+.btn-upload {
+    color: #721799;
+}
+.btn-upload:hover {
+    color: #b33ae7;
+
+}
+.btn-qc {
+    text-decoration: none;
+    padding: 0.719rem 1rem;
+    color: #333333;
+}
+.btn-qc:hover {
+    color: #721799;
+}
+

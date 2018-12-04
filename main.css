@@ -1,0 +1,212 @@
+div, ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    margin-left: 175px;
+    margin-right: 175px;
+    background-color:#ffffff;
+    padding: 0.75rem 1.25rem 0;
+}
+.left-wrapper {
+  
+}
+.right-wrapper {
+   max-width: 300px;
+}
+.img-cover {
+    width: 300px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+}
+.background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.row {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.col {
+    flex-direction: column;
+}
+.discover {
+    background-image: url(./cover/discover_background.png);
+    
+}
+.color-white {
+    color: #ffffff;
+    text-decoration: none;
+}
+.thumnail {
+    background-image: url(./cover/discover_cover_240.jpg);
+    min-height: 90px;
+    min-width: 90px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.btn-play {
+    padding: 1.5625rem;
+    
+}
+.btn-play i {
+    font-size: 2.5rem;
+}
+.btn-play:hover {
+    background: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%);
+}
+.overlay {
+    
+    background: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%);
+}
+.bold {
+    font-weight: 700;
+}
+.small {
+    font-size: 12px;
+    line-height: 1;
+}
+.medium {
+    font-size: 14px;
+}
+.title {
+    margin-right: 1rem;
+}
+.hot-category h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.music-category {
+    margin-bottom: 0.5rem;
+}
+.image {
+    max-width: 300px;
+    max-height: 126px;
+}
+.more {
+    text-decoration: none;
+    color: #666666;
+}
+.more:hover {
+    color: #b33ae7;
+}
+.link-violet {
+    text-decoration: none;
+    color:  #b33ae7;
+}
+
+.link-violet:hover {
+    color: #b33ae7;
+}
+.zingchart {
+    margin-top: 1rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.25rem;
+}
+.song {
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid #eeeeee
+}
+.number-order span {
+    font-size: 1.5rem;
+}
+.song-name {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    color: #000000;
+    font-size: 14px;
+}
+.singer {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    color: #777777;
+}
+.song-singer {
+    margin-right: auto;
+}
+.number-order {
+    padding-right: 0.5rem;
+}
+.listening span {
+    font-size: 12px;
+    color: #777777;
+}
+.song-name:hover, .singer:hover {
+    color: #b33ae7;
+}
+.nav {
+    background-color: #ecf0f1;
+    margin-top: 1rem;
+}
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+    padding: 0.625rem 1.5rem;
+    background-color: #ecf0f1;
+    border-top: 2px solid #ecf0f1;
+    border-right: 1px solid #ecf0f1;
+    border-left: 1px solid #ecf0f1;
+}
+.nav-link:hover, .nav-link:active {
+    background-color: #ffffff;
+    border-top: 2px solid #721799;
+    border-right: 1px solid #999999;
+    border-left: 1px solid #999999;
+}
+
+.song1 {
+    background-image: url(./cover/anh-dang-o-dau-day-anh.jpg);
+    height: 126px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+.song1-overlay {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 100%);
+}
+.link-tool {
+    text-decoration: none;
+    color: #777777;
+    padding: 0 0.25rem;
+}
+.link-tool:hover {
+    color: #721799;
+}
+.tool {
+    display: none;
+}
+.song:hover .listening span {
+    display: none;
+}
+.song:hover .tool {
+    display: block;
+}
+.mv-image {
+    background-image: url(./cover/thumnai-1.jpg);
+    width: 110px;
+    height: 62px;
+}
+.play-circle {
+    color: white;
+    padding: 1rem 2.4375rem;
+}
