@@ -38,7 +38,10 @@ body {
 .right-header {
     
 }
-
+.left-wrapper {
+    padding-right: 10px;
+    align-self: flex-start;
+}
 .login {
     padding: 0;
     text-decoration: none;
