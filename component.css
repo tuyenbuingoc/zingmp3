@@ -113,3 +113,30 @@
 .video-hot {
     flex-wrap: wrap;
 }
+.album-hot {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hot-music {
+    border-right: 1px solid #eeeeee;
+    width: 49%;
+    padding-right: 1%;
+}
+.hot-image {
+    width: 50px;
+    height: 50px;
+}
+.hot-button {
+    padding: 17px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 0%);
+    display: none;
+}
+.hot-image:hover .hot-button {
+    display: block;
+}
+.new-music {
+    
+    width: 49%;
+    padding-right: 1%;
+}

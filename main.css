@@ -275,3 +275,14 @@ background: linear-gradient(180deg, rgba(0,0,0,0.2) 40%, rgba(0,0,0,1) 100%);
     background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 0%);
     display: none;
 }
+.music-new-image {
+    min-height: 66px;
+    min-width: 100px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+.music-new-title {
+    padding-right: 16px;
+    line-height: 1.4;
+    
+}

@@ -42,6 +42,9 @@ body {
     padding-right: 10px;
     align-self: flex-start;
 }
+.right-wrapper {
+    align-self: flex-start;
+}
 .login {
     padding: 0;
     text-decoration: none;
